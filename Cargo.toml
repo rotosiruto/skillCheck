@@ -1,0 +1,8 @@
+[package]
+name = "skillcheck"
+version = "0.1.0"
+edition = "2024"
+authors = ["rotosiruto <wataponpon5@gmail.com>"]
+
+[dependencies]
+thiserror = "2"
