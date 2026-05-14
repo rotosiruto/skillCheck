@@ -44,9 +44,11 @@
 pub mod config;
 pub mod error;
 pub mod parser;
+pub mod schema;
 pub mod value;
 
 pub use config::Config;
 pub use error::ParseError;
 pub use parser::{parse_file, parse_str};
+pub use schema::{Schema, SchemaParseError, Type, ValidationError};
 pub use value::Value;
